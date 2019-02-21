@@ -59,4 +59,13 @@ const degerim = ["ekrem","tas"];
 
 console.log(...degerim);
 
+const MyArrow = (x,y) =>{
+    for(let k=0;k<x;k++){
+        console.log("${k} degerimiz consolda ");
+        y++;
+    }
+    console.log(y);
+}
+
+MyArrow(5,5);
 
